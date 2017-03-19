@@ -1,4 +1,9 @@
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3b9598787985155ddc33c1c3d390db9e4535aef5
 .cf:before, 
 .cf:after {
    @include box-sizing(border-box); 
@@ -16,6 +21,7 @@ h1 {
    color: inherit;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
+<<<<<<< HEAD
  
  #inputPassword2 {
 	-webkit-border-radius: 10px;
@@ -28,6 +34,120 @@ form {
    text-align: center;
    margin: 40px auto;
   
+=======
+
+
+ 
+ #Mail1 {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	margin-left: 800px;
+	margin-bottom:-60px;
+	position:left;
+	top:10000px;
+	
+	
+}
+
+ .tonmail {
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	width: 300px;
+	height: 40px;
+	margin-left: 800px;
+	margin-bottom:-120px;
+	position:left;
+	top:200px;
+
+ }
+
+ .saisie {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	top:200px;
+	
+	
+}
+
+#nom {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	top:200px;
+	margin-bottom:5px;
+	
+	
+}
+
+
+#prenom {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	top:200px;
+	margin-bottom:5px;
+	
+	
+}
+
+#email {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	top:200px;
+	margin-bottom:5px;
+	
+	
+}
+
+#dropdownMenu1 {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	top:200px;
+	margin-bottom:5px;
+ 
+}	
+  
+  
+  }
+	  
+form {
+	
+   max-width: 600px;
+   text-align: relative;
+   margin: 40px auto;
+  
+  
+>>>>>>> 3b9598787985155ddc33c1c3d390db9e4535aef5
   input, textarea {
      border:0; outline:O;
      padding: 1em;
@@ -44,12 +164,17 @@ form {
     }
   }
   
+<<<<<<< HEAD
   #inputPassword2 {
  -webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 border-radius: 10px;
   	
   }
+=======
+  
+
+>>>>>>> 3b9598787985155ddc33c1c3d390db9e4535aef5
   
   #input-submit {
      color: black; 
@@ -104,6 +229,7 @@ border-radius: 10px;
 
 
 .dropdown {
+<<<<<<< HEAD
 
 padding: 100px 15px 100px
    
@@ -123,3 +249,83 @@ border-radius: 30px;
 
 
 
+=======
+	padding: 1px;
+   
+color: #F05F40;
+  font-family: 'Open sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+ 
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+
+
+.inscription {
+	  	 margin-top: 100;
+	    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif, orange;
+		font-size: 10px;
+		background-color:white;
+		color: orange
+	
+  }
+ 
+}
+
+/*TEST*/
+
+
+form {
+  width: 450px;
+  margin: 17% auto;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+.button {
+  height: 46px;
+  border: none;
+}
+
+#emailchamps {
+  width: 120%;
+  height: 0px
+  background: #FDFCFB;
+  font-family: Inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+    margin-left: 430%;
+}
+
+
+#submit {
+  width: 5%;
+  height: 46px;
+  background: #F05F40;
+  font-family: 'Open sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size:12px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+  margin-left: 75%;
+  margin-bottom:0px;
+ 
+}
+
+
+color: #F05F40;
+  font-family: 'Open sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+ 
+ 
+>>>>>>> 3b9598787985155ddc33c1c3d390db9e4535aef5

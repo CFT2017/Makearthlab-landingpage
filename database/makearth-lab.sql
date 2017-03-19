@@ -33,7 +33,11 @@ CREATE TABLE `landing-page` (
   `email` varchar(80) COLLATE utf8_bin NOT NULL,
   `nom` varchar(255) COLLATE utf8_bin DEFAULT NULL,
   `prenom` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+<<<<<<< HEAD
   `profil` enum('proposer','rejoindre','soutenir','decouvrir','dieu') COLLATE utf8_bin DEFAULT NULL,
+=======
+  `profil` enum('proposer','rejoindre','soutenir','decouvrir','admin') COLLATE utf8_bin DEFAULT NULL,
+>>>>>>> 3b9598787985155ddc33c1c3d390db9e4535aef5
   `date_enregistrement` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Table de la landing page. Contient pour chaque utilisateur';
 
